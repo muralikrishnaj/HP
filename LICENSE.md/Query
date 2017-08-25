@@ -1,0 +1,15 @@
+###Contains Excel Index
+SQL_INSERT_QUERY=INSERT INTO Security(" + "AppVersion," + "OsType," + "Category," + "Criticality," + "Vulnerabilities,"
+					+ "Compliance," + "Severity)" + "VALUES(?, ?, ?, ?,?,?,?)
+
+
+driverClassName =com.microsoft.sqlserver.jdbc.SQLServerDriver
+url = jdbc:sqlserver://localhost:1433;databaseName=mytest2
+dbUsername = sa
+dbPassword = admin@123
+
+###C:\Ashok\POI\excel\test.xlsx
+REPORT_DIRECTORY=C:\\Ashok\\POI\\excel\\
+REPORT_BACKUP=C:\\Ashok\\POI\\Backup\\
+FILE_NAME=C:\\Ashok\\POI\\excel
+SELECT_FILE=test.xlsx
