@@ -55,7 +55,7 @@ echo "
 	<br />
 	</div> <!--<div id=\"header\">-->
 	<div id=\"content\">
-	<form action=\"login.php\" method=\"post\">
+	<form action=\"login.php\" method=\"GET\">
 	<fieldset>
 			<label for=\"user\">Username</label> <input type=\"text\" class=\"loginInput\" size=\"20\" name=\"username\"><br />
 			<label for=\"pass\">Password</label> <input type=\"password\" class=\"loginInput\" AUTOCOMPLETE=\"off\" size=\"20\" name=\"password\"><br />
